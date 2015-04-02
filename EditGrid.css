@@ -1,0 +1,48 @@
+/* 
+    Document   : EditGrid.css
+    Created on : Aug 19, 2013, 6:28:26 AM
+    Author     : Clint
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.EditGridTD{
+    display: block;
+}
+
+.EditGridCell{
+    float:left;
+}
+
+.EditGridSaveButton, 
+.EditGridDeleteButton,
+.EditGridCancelButton{
+    width: 20px;
+    height: 20px;         
+}
+
+.EditGridSaveButton{
+    background-image: url("images/SaveButtonSmall.png");    
+}
+
+.EditGridCancelButton{
+    background-image: url("images/CancelButton_16x16.png");    
+}
+
+.EditGridDeleteButton{
+    background-image: url("images/DeleteButton_16x16.png");
+}
+
+.EditGridActionColumn{
+    width:60px;
+}
+
+.GridTextEditControl{
+    resize: none;
+    width: 100px;
+    height: 20px;
+}
